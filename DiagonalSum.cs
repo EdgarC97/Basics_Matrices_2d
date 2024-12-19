@@ -4,29 +4,75 @@ public class DiagonalSum
 {
     public static void Run()
     {
-        Console.WriteLine("Ejercicio: Suma de diagonales");
+        Console.WriteLine("Ejercicio: Suma de diagonales en matrices 3x3");
 
-        int diag1 = 0;
-        int diag2 = 0;
+        // Declaramos la matriz con valores por defecto
         int[,] matrizDiag = new int[3, 3]
         {
-            {1,2,3},
-            {4,5,6},
-            {7,8,9}
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
         };
 
-        int n = matrizDiag.GetLength(0); // Obtenemos el tamaño de la matriz
+        // Declaramos la matriz para rellenarla con valores aleatorios
+        int[,] matrixRam = new int[3, 3];
+        Random random = new Random();
+        int n = matrixRam.GetLength(0); // Tamaño de las matrices
 
+        // Rellenamos la matriz aleatoria con valores aleatorios
         for (int i = 0; i < n; i++)
         {
-            diag1 += matrizDiag[i, i]; // Suma de la diagonal principal
-            diag2 += matrizDiag[i, n - 1 - i]; //Suma de la diagonal secundaria
+            for (int j = 0; j < n; j++)
+            {
+                matrixRam[i, j] = random.Next(1, 100);
+            }
         }
-        Console.WriteLine("La suma de la primera diagonal es : " + diag1);
-        Console.WriteLine("La suma de la segunda diagonal es : " + diag2);
 
-        Console.WriteLine("Ejercicio completado.");
-        Console.WriteLine();
+        // Función para calcular la suma de diagonales
+        (int principal, int secundaria) CalcularDiagonales(int[,] matriz)
+        {
+            int diagonalPrincipal = 0;
+            int diagonalSecundaria = 0;
+
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                diagonalPrincipal += matriz[i, i];
+                diagonalSecundaria += matriz[i, matriz.GetLength(1) - 1 - i];
+            }
+
+            return (diagonalPrincipal, diagonalSecundaria);
+        }
+
+        // Calculamos las diagonales de ambas matrices
+        var (diag1, diag2) = CalcularDiagonales(matrizDiag);
+        var (diag3, diag4) = CalcularDiagonales(matrixRam);
+
+        // Imprimimos las matrices
+        Console.WriteLine("\nMatriz con valores por defecto:");
+        ImprimirMatriz(matrizDiag);
+
+        Console.WriteLine("\nMatriz con valores aleatorios:");
+        ImprimirMatriz(matrixRam);
+
+        // Mostramos los resultados
+        Console.WriteLine($"\nSuma de la diagonal principal (matriz por defecto): {diag1}");
+        Console.WriteLine($"Suma de la diagonal secundaria (matriz por defecto): {diag2}");
+        Console.WriteLine($"Suma de la diagonal principal (matriz aleatoria): {diag3}");
+        Console.WriteLine($"Suma de la diagonal secundaria (matriz aleatoria): {diag4}");
+
+        Console.WriteLine("\nEjercicio completado.");
+    }
+
+    // Método para imprimir matrices
+    public static void ImprimirMatriz(int[,] matriz)
+    {
+        for (int i = 0; i < matriz.GetLength(0); i++)
+        {
+            for (int j = 0; j < matriz.GetLength(1); j++)
+            {
+                Console.Write(matriz[i, j] + "\t");
+            }
+            Console.WriteLine();
+        }
     }
 }
-

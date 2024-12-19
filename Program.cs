@@ -8,8 +8,8 @@ class Program
         Console.WriteLine("=====================");
 
         // Ejercicios originales
-        BasicMatrixOperations.Run();
-        // DiagonalSum.Run();
+        // BasicMatrixOperations.Run();
+        DiagonalSum.Run();
         // MatrixSum.Run();
         // MaxMatrixValue.Run();
         // CountGreaterValues.Run();

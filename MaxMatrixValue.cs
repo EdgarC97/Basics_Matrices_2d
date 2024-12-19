@@ -13,7 +13,7 @@ public class MaxMatrixValue
             {8,9,10,11},
             {70,18,10,15}
         };
-        int maxValue = matrixMaxValue[0, 0]; // Inicializar con el primer valor de la matriz
+        int maxValue = matrixMaxValue[0, 0]; // Inicializar con el primer valor de la matriz (si sabemos que está llena)
 
         for (int i = 0; i < matrixMaxValue.GetLength(0); i++) // Recorriendo las filas
         {

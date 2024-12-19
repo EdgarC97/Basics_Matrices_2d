@@ -9,10 +9,9 @@ class Program
 
         // Ejercicios originales
         // BasicMatrixOperations.Run();
-        DiagonalSum.Run();
-        // MatrixSum.Run();
+        // DiagonalSum.Run();
         // MaxMatrixValue.Run();
-        // CountGreaterValues.Run();
+        CountGreaterValues.Run();
         // MatrixRotation.Run();
         // GameOfLife.Run();
 

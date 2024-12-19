@@ -1,5 +1,4 @@
-using System;
-
+//Este ejercicio te ayuda a practicar la rotación de matrices 2D. Mejora tu comprensión de cómo manipular índices para realizar transformaciones geométricas en estructuras de datos bidimensionales.
 public class RotateMatrixByK
 {
     public static void Run()

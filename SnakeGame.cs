@@ -1,6 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
+//Este ejercicio te ayuda a practicar la implementación de la lógica del juego de la serpiente. Mejora tu habilidad para manejar estructuras de datos como LinkedList y trabajar con movimientos en una cuadrícula 2D.
 
 public class SnakeGame
 {

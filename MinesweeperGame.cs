@@ -1,5 +1,4 @@
-using System;
-
+//Este ejercicio te ayuda a practicar la implementación de la lógica del juego Buscaminas. Mejora tu habilidad para contar elementos adyacentes en una matriz 2D y actualizar valores basados en las condiciones de las celdas vecinas.
 public class MinesweeperGame
 {
     public static void Run()

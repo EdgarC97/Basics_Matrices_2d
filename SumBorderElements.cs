@@ -1,3 +1,5 @@
+// Este ejercicio te ayuda a practicar el recorrido de matrices y la identificación de elementos en los bordes. Desarrolla tu habilidad para trabajar con índices de matrices y condiciones para seleccionar elementos específicos.
+
 public class SumBorderElements
 {
     public static void Run()

@@ -1,6 +1,4 @@
-using System;
-using System.Collections.Generic;
-
+//Este ejercicio te ayuda a practicar la validación de reglas complejas en una estructura de datos 2D. Mejora tu habilidad para usar estructuras de datos como HashSet para verificar la unicidad de elementos en diferentes contextos.
 public class ValidSudoku
 {
     public static void Run()

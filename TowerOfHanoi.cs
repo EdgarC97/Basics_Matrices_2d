@@ -1,6 +1,4 @@
-using System;
-using System.Linq;
-
+//Este ejercicio te ayuda a practicar la implementación recursiva del problema clásico de la Torre de Hanoi. Mejora tu comprensión de la recursividad y cómo aplicarla para resolver problemas complejos de manera elegante.
 public class TowerOfHanoi
 {
     public static void Run()

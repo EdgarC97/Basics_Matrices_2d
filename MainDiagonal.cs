@@ -1,3 +1,5 @@
+//Este ejercicio te ayuda a entender cómo acceder a elementos específicos de una matriz basándose en sus índices. Practicas la extracción de la diagonal principal, lo cual es útil en varios algoritmos y aplicaciones matemáticas.
+
 public class MainDiagonal
 {
     public static void Run()

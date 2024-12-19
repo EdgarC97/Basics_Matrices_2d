@@ -1,3 +1,5 @@
+// Este ejercicio te ayuda a practicar la manipulación de elementos dentro de las filas de una matriz. Mejora tu comprensión sobre cómo intercambiar elementos y trabajar con índices de matriz de manera eficiente.
+
 public class ReverseMatrixRows
 {
     public static void Run()

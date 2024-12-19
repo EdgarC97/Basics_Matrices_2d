@@ -1,4 +1,4 @@
-using System;
+//Este ejercicio te ayuda a practicar la implementación de algoritmos de búsqueda en profundidad (DFS) para resolver problemas de conectividad en matrices 2D. Mejora tu habilidad para contar áreas conectadas y manejar estructuras de datos complejas.
 
 public class LargestIsland
 {

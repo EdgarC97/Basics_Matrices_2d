@@ -1,5 +1,4 @@
-using System;
-
+//Este ejercicio te ayuda a practicar la implementación de algoritmos de búsqueda en profundidad (DFS) en una matriz 2D. Desarrolla tu habilidad para resolver problemas de laberinto y navegación en estructuras de datos bidimensionales.
 public class FindPathInMaze
 {
     public static void Run()

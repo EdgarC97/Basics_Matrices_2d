@@ -1,4 +1,4 @@
-using System;
+//Este ejercicio te ayuda a practicar la implementación de una versión simplificada del juego Tetris. Mejora tu habilidad para manejar la caída y colocación de piezas en un tablero 2D, así como la detección de colisiones y la búsqueda de la posición más baja posible para cada pieza. Este problema combina la manipulación de matrices 2D con la lógica de juegos, lo que te ayuda a desarrollar habilidades importantes para la programación de videojuegos y simulaciones.
 
 public class SimplifiedTetris
 {

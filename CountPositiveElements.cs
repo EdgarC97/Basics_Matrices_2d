@@ -1,3 +1,5 @@
+//Este ejercicio te ayuda a practicar el recorrido de matrices y la aplicación de condiciones simples. Mejora tu habilidad para contar elementos que cumplen ciertos criterios dentro de una estructura de datos bidimensional.
+
 public class CountPositiveElements
 {
     public static void Run()

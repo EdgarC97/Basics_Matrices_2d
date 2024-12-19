@@ -1,3 +1,6 @@
+//Este ejercicio te ayuda a comprender cómo intercambiar elementos en una matriz para cambiar su estructura. La transposición de matrices es una operación fundamental en álgebra lineal y tiene aplicaciones en procesamiento de imágenes y otras áreas.
+
+
 public class TransposeMatrix
 {
     public static void Run()

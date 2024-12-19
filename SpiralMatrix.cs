@@ -1,6 +1,4 @@
-using System;
-using System.Collections.Generic;
-
+//Este ejercicio te ayuda a practicar el recorrido de matrices en un patrón espiral. Mejora tu habilidad para manejar múltiples punteros y condiciones para navegar por una matriz de manera no lineal.
 public class SpiralMatrix
 {
     public static void Run()

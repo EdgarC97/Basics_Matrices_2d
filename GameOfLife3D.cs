@@ -1,4 +1,4 @@
-using System;
+//Este ejercicio te ayuda a practicar la implementación del Juego de la Vida en un espacio tridimensional. Mejora tu habilidad para trabajar con matrices 3D y aplicar reglas complejas a cada celda en un espacio tridimensional.
 
 public class GameOfLife3D
 {

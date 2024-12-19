@@ -12,3 +12,4 @@ D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\refint\Matri
 D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.pdb
 D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.genruntimeconfig.cache
 D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\ref\MatrixRotation.dll
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.sourcelink.json

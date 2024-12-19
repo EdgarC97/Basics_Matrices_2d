@@ -1,0 +1,14 @@
+D:\Proyectos programacion\C#\test2d\MatrixRotation\bin\Debug\net8.0\MatrixRotation.exe
+D:\Proyectos programacion\C#\test2d\MatrixRotation\bin\Debug\net8.0\MatrixRotation.deps.json
+D:\Proyectos programacion\C#\test2d\MatrixRotation\bin\Debug\net8.0\MatrixRotation.runtimeconfig.json
+D:\Proyectos programacion\C#\test2d\MatrixRotation\bin\Debug\net8.0\MatrixRotation.dll
+D:\Proyectos programacion\C#\test2d\MatrixRotation\bin\Debug\net8.0\MatrixRotation.pdb
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.AssemblyInfoInputs.cache
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.AssemblyInfo.cs
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.csproj.CoreCompileInputs.cache
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.dll
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\refint\MatrixRotation.dll
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.pdb
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\MatrixRotation.genruntimeconfig.cache
+D:\Proyectos programacion\C#\test2d\MatrixRotation\obj\Debug\net8.0\ref\MatrixRotation.dll

@@ -12,8 +12,8 @@ class Program
         // DiagonalSum.Run();
         // MaxMatrixValue.Run();
         // CountGreaterValues.Run();
-        MatrixRotation.Run();
-        // GameOfLife.Run();
+        // MatrixRotation.Run();
+        GameOfLife.Run();
 
         // 15 ejercicios adicionales
         // SumBorderElements.Run();

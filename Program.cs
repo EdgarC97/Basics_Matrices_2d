@@ -11,8 +11,8 @@ class Program
         // BasicMatrixOperations.Run();
         // DiagonalSum.Run();
         // MaxMatrixValue.Run();
-        CountGreaterValues.Run();
-        // MatrixRotation.Run();
+        // CountGreaterValues.Run();
+        MatrixRotation.Run();
         // GameOfLife.Run();
 
         // 15 ejercicios adicionales

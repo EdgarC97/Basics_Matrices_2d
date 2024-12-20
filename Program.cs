@@ -25,8 +25,8 @@ class Program
         //*****Intermediate*****
         // FindPathInMaze.Run();
         // LargestIsland.Run();
-        SpiralMatrix.Run();
-        // MinesweeperGame.Run();
+        // SpiralMatrix.Run();
+        MinesweeperGame.Run();
         // RotateMatrixByK.Run();
         //*****Advanced*****
         // ValidSudoku.Run();

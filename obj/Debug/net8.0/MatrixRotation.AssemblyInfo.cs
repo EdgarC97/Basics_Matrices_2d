@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MatrixRotation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+879f4c75abfb08efbe8950e4509dbf12fba5b7b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fcb4a4d4111b6b3e1b9bbc24d50431ad786c4e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MatrixRotation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MatrixRotation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

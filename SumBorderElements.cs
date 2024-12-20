@@ -1,5 +1,3 @@
-// Este ejercicio te ayuda a practicar el recorrido de matrices y la identificación de elementos en los bordes. Desarrolla tu habilidad para trabajar con índices de matrices y condiciones para seleccionar elementos específicos.
-
 public class SumBorderElements
 {
     public static void Run()
@@ -19,15 +17,18 @@ public class SumBorderElements
         int sum = 0;
 
         // Sumamos los elementos de los bordes
+        Console.WriteLine("La matriz es: ");
         for (int i = 0; i < rows; i++)
         {
             for (int j = 0; j < cols; j++)
             {
+                Console.Write(matrix[i, j] + " ");
                 if (i == 0 || i == rows - 1 || j == 0 || j == cols - 1)
                 {
                     sum += matrix[i, j];
                 }
             }
+            Console.WriteLine();
         }
 
         // Mostramos el resultado

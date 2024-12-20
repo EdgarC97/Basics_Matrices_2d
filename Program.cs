@@ -13,10 +13,10 @@ class Program
         // MaxMatrixValue.Run();
         // CountGreaterValues.Run();
         // MatrixRotation.Run();
-        GameOfLife.Run();
+        // GameOfLife.Run();
 
         // 15 ejercicios adicionales
-        // SumBorderElements.Run();
+        SumBorderElements.Run();
         // ReverseMatrixRows.Run();
         // CountPositiveElements.Run();
         // MainDiagonal.Run();

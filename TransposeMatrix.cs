@@ -18,6 +18,17 @@ public class TransposeMatrix
         int rows = matrix.GetLength(0);
         int cols = matrix.GetLength(1);
 
+        // Mostramos la matriz original
+        Console.WriteLine("Matriz original:");
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < cols; j++)
+            {
+                Console.Write(matrix[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+
         // Transponemos la matriz
         for (int i = 0; i < rows; i++)
         {
@@ -28,7 +39,6 @@ public class TransposeMatrix
                 matrix[j, i] = temp;
             }
         }
-
         // Mostramos el resultado
         Console.WriteLine("Matriz transpuesta:");
         for (int i = 0; i < rows; i++)

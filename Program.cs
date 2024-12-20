@@ -19,8 +19,8 @@ class Program
         // SumBorderElements.Run();
         // ReverseMatrixRowsAndColumns.Run();
         // CountPosAndNegElements.Run();
-        DiagonalAndCorners.Run();
-        // TransposeMatrix.Run();
+        // DiagonalAndCorners.Run();
+        TransposeMatrix.Run();
         // FindPathInMaze.Run();
         // LargestIsland.Run();
         // SpiralMatrix.Run();

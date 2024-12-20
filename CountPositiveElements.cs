@@ -1,4 +1,4 @@
-public class CountPositiveElements
+public class CountPosAndNegElements
 {
     public static void Run()
     {

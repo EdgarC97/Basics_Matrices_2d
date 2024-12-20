@@ -18,8 +18,8 @@ class Program
         // 15 ejercicios adicionales
         // SumBorderElements.Run();
         // ReverseMatrixRowsAndColumns.Run();
-        CountPositiveElements.Run();
-        // MainDiagonal.Run();
+        // CountPosAndNegElements.Run();
+        DiagonalAndCorners.Run();
         // TransposeMatrix.Run();
         // FindPathInMaze.Run();
         // LargestIsland.Run();

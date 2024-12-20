@@ -16,16 +16,19 @@ class Program
         // GameOfLife.Run();
 
         // 15 ejercicios adicionales
+        //*****Basics*****
         // SumBorderElements.Run();
         // ReverseMatrixRowsAndColumns.Run();
         // CountPosAndNegElements.Run();
         // DiagonalAndCorners.Run();
-        TransposeMatrix.Run();
+        // TransposeMatrix.Run();
+        //*****Intermediate*****
         // FindPathInMaze.Run();
-        // LargestIsland.Run();
+        LargestIsland.Run();
         // SpiralMatrix.Run();
         // MinesweeperGame.Run();
         // RotateMatrixByK.Run();
+        //*****Advanced*****
         // ValidSudoku.Run();
         // SnakeGame.Run();
         // TowerOfHanoi.Run();

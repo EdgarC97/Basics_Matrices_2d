@@ -8,10 +8,10 @@ public class LargestIsland
 
         int[,] grid = new int[4, 5]
         {
-            {1, 1, 0, 0, 0},
-            {1, 1, 0, 0, 0},
+            {1, 1, 1, 0, 0},
+            {1, 1, 1, 0, 0},
             {0, 0, 1, 0, 0},
-            {0, 0, 0, 1, 1}
+                {0, 0, 1, 1, 1}
         };
 
         int largestIsland = FindLargestIsland(grid);
@@ -26,13 +26,15 @@ public class LargestIsland
         int rows = grid.GetLength(0);
         int cols = grid.GetLength(1);
         int maxArea = 0;
-
+        
+        // Recorre toda la matriz
         for (int i = 0; i < rows; i++)
         {
             for (int j = 0; j < cols; j++)
             {
                 if (grid[i, j] == 1)
                 {
+                    // Llama a DFS para obtener el área de la isla
                     maxArea = Math.Max(maxArea, DFS(grid, i, j));
                 }
             }
@@ -47,12 +49,13 @@ public class LargestIsland
             return 0;
 
         grid[i, j] = 0; // Marcamos como visitado
-        int area = 1;
-
-        area += DFS(grid, i + 1, j);
-        area += DFS(grid, i - 1, j);
-        area += DFS(grid, i, j + 1);
-        area += DFS(grid, i, j - 1);
+        int area = 1; // Contamos la celda actual como parte del área
+        
+        // Llamadas recursivas a las celdas vecinas (arriba, abajo, izquierda, derecha)
+        area += DFS(grid, i + 1, j); // Abajo
+        area += DFS(grid, i - 1, j); //Arriba
+        area += DFS(grid, i, j + 1); //Derecha
+        area += DFS(grid, i, j - 1); //Izquierda
 
         return area;
     }

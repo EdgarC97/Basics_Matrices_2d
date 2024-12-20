@@ -27,9 +27,9 @@ class Program
         // LargestIsland.Run();
         // SpiralMatrix.Run();
         // MinesweeperGame.Run();
-        RotateMatrixByK.Run();
+        // RotateMatrixByK.Run();
         //*****Advanced*****
-        // ValidSudoku.Run();
+        ValidSudoku.Run();
         // SnakeGame.Run();
         // TowerOfHanoi.Run();
         // GameOfLife3D.Run();

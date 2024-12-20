@@ -24,8 +24,8 @@ class Program
         // TransposeMatrix.Run();
         //*****Intermediate*****
         // FindPathInMaze.Run();
-        LargestIsland.Run();
-        // SpiralMatrix.Run();
+        // LargestIsland.Run();
+        SpiralMatrix.Run();
         // MinesweeperGame.Run();
         // RotateMatrixByK.Run();
         //*****Advanced*****

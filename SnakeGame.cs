@@ -39,7 +39,7 @@ public class SnakeGame
             else if (move == 'L') direction = 2;
             else if (move == 'U') direction = 3;
 
-            var head = snake.First.Value;
+            var head = snake.First?.Value ?? throw new InvalidOperationException("The snake has no head.");
             int newX = head.Item1 + dx[direction];
             int newY = head.Item2 + dy[direction];
 

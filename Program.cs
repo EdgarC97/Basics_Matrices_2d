@@ -16,8 +16,8 @@ class Program
         // GameOfLife.Run();
 
         // 15 ejercicios adicionales
-        SumBorderElements.Run();
-        // ReverseMatrixRows.Run();
+        // SumBorderElements.Run();
+        ReverseMatrixRowsAndColumns.Run();
         // CountPositiveElements.Run();
         // MainDiagonal.Run();
         // TransposeMatrix.Run();
